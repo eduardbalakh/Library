@@ -1,14 +1,7 @@
 ﻿using System;
-using System.IO;
-using Microsoft.Win32;
-using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
-using System.Text;
 using System.Text.RegularExpressions;
 using Library.Data;
-using Microsoft.EntityFrameworkCore.Design;
 
 
 namespace Library
@@ -33,10 +26,6 @@ namespace Library
 
         }
 
-        private static void InParamsParse(string[] args)
-        {
-
-        }
 
         private static void CommandParse(string s,bool startCom)
         {

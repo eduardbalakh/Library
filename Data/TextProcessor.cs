@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace Library.Data
 {
@@ -106,10 +105,6 @@ namespace Library.Data
             {
                 return new RequestContext("Exception in DeleteLibrary(): " + e.Message, true);
             }
-            //finally
-            //{
-            //    //context.Dispose();
-            //}
         }
 
         public static RequestContext GetFilteredList(string wrdBgn, int wrdCnt)
